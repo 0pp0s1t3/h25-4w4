@@ -1,0 +1,47 @@
+.global {
+    margin : 0 auto;
+    max-width: 1000px;
+ }
+ 
+ .hero{
+     min-height: 100vh;
+     background-image: url("images/maldives.jpg");
+
+&__contenu {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: space-between;
+   height: auto;
+   align-items: flex-start;
+}
+
+&__titre {
+    margin: 13px;
+    font-size: 3rem;
+}
+
+&__descripton {
+    margin: 10px;
+}
+
+&__courriel {
+    margin: 10px;
+}
+
+&__bouton {
+  margin: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  border: 2px solid rgb(39, 188, 247);
+}
+
+&__icon-apps {
+    margin: 10px;
+}
+
+    }
+
+
+
+
