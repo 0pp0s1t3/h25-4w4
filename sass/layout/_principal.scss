@@ -13,19 +13,38 @@
    justify-content: space-between;
    height: auto;
    align-items: flex-start;
+   padding-right: 50px;
+    padding-left: 50px;
 }
 
 &__titre {
     margin: 13px;
     font-size: 3rem;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 &__descripton {
     margin: 10px;
+    font-size: 10em;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 &__courriel {
     margin: 10px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
 }
 
 &__bouton {
