@@ -191,6 +191,68 @@ Layout
     background-color: #fff;
   }
 }
+/*________
+erreur
+_________*/
+.erreur {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url('images/ilepalmier.jpg') no-repeat;
+  background-size: cover;
+  color: #FFD700;
+}
+
+.boiteflexErreur {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.errorTitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.errorPara {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.suggestions {
+  margin-top: 20px;
+}
+
+.suggestions a {
+  display: inline-block;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .errorTitle {
+      font-size: 2rem;
+  }
+  .errorPara {
+      font-size: 1rem;
+  }
+  .btn {
+      padding: 10px 20px;
+  }
+}
+
 
 /*
   --------------------------------- Layout du pied de page
