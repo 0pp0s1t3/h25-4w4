@@ -11,7 +11,7 @@
     <?php $erreur_couleur_texte = get_theme_mod('erreur_couleur_texte', ''); ?>
 
 
-    <!-- Variables extras pour l'examen intra -->
+   
      <?php $erreur_background = get_theme_mod("erreur_background", "") ?>
 
     <style>
@@ -36,7 +36,7 @@
           <h1 class="erreur__404"><?php echo $erreur_404 ?></h1>
           <p class="erreur__description"><?php echo $erreur_description ?></p>
 
-          <!-- Retour à l'accueil (page front-page) -->
+          
           <a href="<?php echo get_home_url() ?>" class="erreur__nav__accueil" style="background-color: <?php echo $erreur_couleur_texte ?>"><?php echo $erreur_bouton_retour ?></a>
           <div class="erreur__nav">
             <?php wp_nav_menu(array(
@@ -46,7 +46,7 @@
             ));
           ?>
 
-<!-- Give the border-bottom of this form a 2px solid and erreur_couleur_texte color -->
+
           <form 
           class="erreur__recherche" 
           role="search" 
@@ -55,7 +55,6 @@
           style="border-bottom: 2px solid <?php echo $erreur_couleur_texte ?>"
           style="color: <?php echo $erreur_couleur_texte ?>"
           >
-            <!-- Select the ::placeholder and give it a style -->
             <input 
             class="erreur__recherche--input" 
             type="search" 
