@@ -1,16 +1,92 @@
-.global {
-   margin : 0 auto;
-   max-width: 1000px;
+body{
+  overflow-x:hidden;
 }
 
 .hero{
-    min-height: 100vh;
-    background-image: url("images/maldives.jpg");
+  font-family:"Montserrat";
+
+  min-height: 80vh;
+  background-color:rgb(154, 101, 101);
+  background-image: url("images/maldives.jpg");
+  background-size: cover;
+
+  @media screen and (max-width:$point_rupture){
+    margin-top:5%;
+  }
+
+  &__contenu{
+    height:50vh;
+    width:100%;
+    padding-top:3%;
+    margin-left:5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    
+    font-weight:bold;
+
+  }
+
+  &__titre{
+    font-size:3em;
+    color:black;
+    text-shadow: 2px 2px 4px #389757;
+
+  }
+
+  &__description{
+    width:48%;
+    padding:10% auto;
+  }
+
+  &__bouton{
+    margin-bottom:1%;
+    font-size:0.7em;
+    height:5vh;
+    font-weight:bold;
+    width:fit-content;
+
+
+    border-radius: 5px;
+    border: 0px solid black;
+    background-color:$couleur__bleute;
+
+
+  }
+
+  &__icones-box{
+    width:5%;
+  }
+
+  &__icones{
+    width:30%;
+  }
 }
 
-.boiteflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap : 10px;
+
+.galerie{
+  margin: 6% auto;
+  width:90%;
+
+  &__titre{
+    width:fit-content;
+    font-size:0.9em;
+    font-family:"Montserrat";
+    color:black;
+
+  }
+
+  &__cartes{
+
+    width:100%;
+    margin:auto;
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+    justify-content:center;
+    align-items:center;
+    
+  }
 }
